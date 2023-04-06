@@ -1,7 +1,7 @@
 return require('packer').startup(function(use)
 
  -- Package Manager
- use 'wbthomason/packer.nvim'
+ use {'wbthomason/packer.nvim'}
 
  -- File browser
  use {
@@ -25,5 +25,8 @@ return require('packer').startup(function(use)
 
  -- Theme
  use 'Mofiqul/vscode.nvim'
+
+ -- Restore sessioni
+ use {'vim-scripts/restore_view.vim'}
 
 end)
