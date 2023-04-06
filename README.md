@@ -21,5 +21,5 @@ curl -sL install-node.vercel.app/lts | bash
 I also made an install script
 ```bash
 git clone --depth 1 https://github.com/Davi-Motta/nvim-config\
-~/.config/nvim && ./setup.sh
+ ~/.config/nvim && ./config/nvim/setup.sh
 ```
