@@ -14,6 +14,10 @@ return require('packer').startup(function(use)
   end
  }
 
+ -- Buffer line
+ use {'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons'}
+
+
  -- Completion
  use {'neoclide/coc.nvim', branch = 'release'}
 
